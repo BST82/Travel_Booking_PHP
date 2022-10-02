@@ -4,8 +4,8 @@ $insert=false;
 if(isset($_POST['Name'])){
     //set connection variables
 $server ="localhost";
-$username="root";
-$password="secret";
+$username="#";
+$password="#";
 
 //create connection
 $con=mysqli_connect($server,$username,$password);
